@@ -19,11 +19,11 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Container(
-//                height: 100,
+                height: 100,
 //                width: 100,
 //                color: Colors.red,
 //                child: Text('Container 1'),
-                  )
+              )
             ],
           ),
         ),
