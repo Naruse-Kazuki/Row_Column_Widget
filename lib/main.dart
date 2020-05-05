@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         ),
         body: SafeArea(
           child: Column(
-//            verticalDirection: VerticalDirection.up,
+            verticalDirection: VerticalDirection.up,
             children: <Widget>[
               Container(
                 height: 100,
