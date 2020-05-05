@@ -15,7 +15,18 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.blue,
           title: Text('Row & Column'),
         ),
-//        body: SafeArea(),
+        body: SafeArea(
+          child: Column(
+            children: <Widget>[
+              Container(
+//                height: 100,
+//                width: 100,
+//                color: Colors.red,
+//                child: Text('Container 1'),
+                  )
+            ],
+          ),
+        ),
       ),
     );
   }
