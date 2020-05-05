@@ -10,9 +10,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.blue,
-        ),
+        appBar:
+            AppBar(backgroundColor: Colors.blue, title: Text('Row & Column')),
       ),
     );
   }
