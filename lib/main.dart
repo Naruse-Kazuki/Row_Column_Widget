@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
           title: Text('Column & Row'),
         ),
         body: SafeArea(
-          child: Column(
+          child: Row(
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               Container(
