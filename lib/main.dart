@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
           title: Text('Column & Row'),
         ),
         body: SafeArea(
-          child: Row(
+          child: Column(
             verticalDirection: VerticalDirection.up,
             children: <Widget>[
               Container(
