@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         ),
         body: SafeArea(
           child: Column(
-            verticalDirection: VerticalDirection.up,
+            mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
               Container(
                 height: 100,
