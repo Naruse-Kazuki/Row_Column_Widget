@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.white,
         appBar: AppBar(
           backgroundColor: Colors.blue,
-          title: Text('Row & Column'),
+          title: Text('Column & Row'),
         ),
         body: SafeArea(
           child: Row(
