@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
           title: Text('Column & Row'),
         ),
         body: SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Container(
                 height: 100,
@@ -37,6 +37,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.green,
                 child: Text('Container 3'),
               ),
+              Container()
             ],
           ),
         ),
